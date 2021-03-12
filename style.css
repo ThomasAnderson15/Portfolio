@@ -63,6 +63,10 @@ footer {
   padding: 10px;
 }
 
+article {
+  font-weight: bold;
+  text-shadow: 1px 1px white;
+}
 /*
 specific type ---------------------------------
 */
