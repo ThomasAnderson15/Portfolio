@@ -1,0 +1,120 @@
+
+/* 
+class shortcuts -------------------------------
+*/
+.centered-text {
+  text-align: center;
+}
+
+.darkbackground-lighttext {
+  background-color: #0353A4;
+  color:white;
+  text-shadow: 1px 1px black;
+  
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+/* 
+general content -------------------------------
+*/
+body {
+  background-image:url(images/background/stripes);
+}
+
+section {
+padding:50px 140px;
+}
+
+section h2{
+  color:#0353A4;
+  padding: 10px 120px 10px;
+  font-family: cursive;
+  font-size:25px;
+}
+
+section p {
+  color:#0353A4;
+  padding: 0 120px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 19px;
+
+}
+
+header h1{
+  font-family: cursive;
+  padding: 10px 0 5px 0;
+  font-size: 45px;
+  margin: 0;
+  
+}
+header h3 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  padding: 0 0 10px 0; 
+  margin: 0;
+}
+
+footer {
+  padding: 10px;
+}
+
+/*
+specific type ---------------------------------
+*/
+
+h6 {
+font-size: 20px;
+margin: 0;
+text-align: center;
+}
+
+a {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+}
+
+a:link    { color: rgb(123, 36, 123);  }
+a:visited { color: orchid;   }
+a:hover   { color: grey; }
+a:active  { color: pink;  }
+
+ul {
+  text-align: left;
+  color:#0353A4;
+  padding: 0 120px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 19px;
+    padding:0 0 0 150px;
+}
+
+ol {
+  text-align: left;
+  color:#0353A4;
+  padding: 0 120px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 19px;
+    padding:0 0 0 150px;
+}
+
+li {
+  padding:3px;
+}
+
+hr {
+  border-top: 2px solid black;
+}
+
+
+/* elements -------------------------------------
+*/
+img {
+  border-radius: 30%;
+  height: auto;
+  width: 50%;
+  imag center;
+}
